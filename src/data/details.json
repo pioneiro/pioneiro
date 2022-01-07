@@ -1,0 +1,31 @@
+{
+  "name": "Soumyajit Das",
+  "email": "mepioneiro@gmail.com",
+  "role": "Web Developer",
+  "skills": [
+    "HTML/CSS",
+    "JavaScript",
+    "NodeJS",
+    "ExpressJS",
+    "ReactJS",
+    "MongoDB",
+    "Git/GitHub"
+  ],
+  "socialLinks": [
+    {
+      "name": "GitHub",
+      "href": "https://github.com/pioneiro",
+      "iconClass": "fab fa-github"
+    },
+    {
+      "name": "LinkedIn",
+      "href": "https://linkedin.com/in/pioneiro",
+      "iconClass": "fab fa-linkedin-in"
+    },
+    {
+      "name": "Instagram",
+      "href": "https://instagram.com/o_pioneiro",
+      "iconClass": "fab fa-instagram"
+    }
+  ]
+}
