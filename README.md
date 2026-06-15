@@ -1,225 +1,129 @@
-# 🎯 Soumyajit Das | Product Engineer Portfolio
-
-> A modern, performant, and fully responsive portfolio website showcasing 3.5+ years of professional experience in full-stack engineering, AdTech platforms, and scalable web architectures.
-
-[![Live](https://img.shields.io/badge/Live-dsoumyajit.in-4F46E5?style=flat-square)](https://dsoumyajit.in)
-[![Vue 3](https://img.shields.io/badge/Vue-3.5-4FC08D?style=flat-square&logo=vue.js)](https://vuejs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.1-38BDF8?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
-
----
-
-## 📋 Overview
-
-This is a **single-page application (SPA)** portfolio built to showcase professional experience, technical skills, education background, and career achievements. The website features smooth scrolling navigation, intersection-based animations, mobile-responsive design, and dual-channel contact functionality (Email & WhatsApp).
-
-**Live Website:** [dsoumyajit.in](https://dsoumyajit.in)
+<div align="center">
+  <h1>👋 Hi, I'm Soumyajit Das</h1>
+  <h3>Product Engineer @ DeltaX | Full-Stack Developer</h3>
+  
+  <p>
+    <a href="https://dsoumyajit.in"><img src="https://img.shields.io/badge/Portfolio-dsoumyajit.in-4F46E5?style=flat-square&logo=google-chrome&logoColor=white" alt="Portfolio"></a>
+    <a href="https://linkedin.com/in/dsoumyajit"><img src="https://img.shields.io/badge/LinkedIn-dsoumyajit-0A66C2?style=flat-square&logo=linkedin" alt="LinkedIn"></a>
+    <a href="https://github.com/dsoumyajit"><img src="https://img.shields.io/badge/GitHub-dsoumyajit-181717?style=flat-square&logo=github" alt="GitHub"></a>
+    <a href="mailto:dsoumyajit.co@gmail.com"><img src="https://img.shields.io/badge/Email-dsoumyajit.co%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+  </p>
+</div>
 
 ---
 
-## ✨ Features
+## 👨‍💻 About Me
 
-### 🎨 **Design & UX**
+Product Engineer with **3.5+ years** of hands-on experience building high-performance web applications and platform solutions using **C#, .NET, Vue.js, SQL Server, Redis**, and **REST APIs**. Experienced in AdTech integrations, deployment automation, frontend modernization, and performance optimization across large-scale systems.
 
-- **Modern dark theme** with indigo/emerald accent colors
-- **Smooth scroll navigation** with active section tracking
-- **Intersection Observer animations** for fade-in effects on scroll
-- **Scroll-direction aware back-to-top button**
-- **Mobile-first responsive design** with hamburger menu
-- **Accessible semantic HTML** with proper ARIA labels
+Currently contributing to **DeltaX's in-house AdServer** and AI-driven platform initiatives while mentoring junior engineers and owning end-to-end feature delivery. Known for clean, modular code, strong debugging skills, and building reliable, maintainable systems.
 
-### 🚀 **Performance Optimizations**
-
-- **Resource hints**: `preconnect` and `preload` for critical assets (LCP optimization)
-- **WebP image format** for hero portrait
-- **Font optimization**: Google Fonts with `display=swap`
-- **HMR (Hot Module Replacement)** configured for fast development
-- **Optimized Tailwind CSS** with modern v4 `@theme` syntax
-
-### 📱 **Sections**
-
-1. **About** — Professional introduction with portrait, resume download, and social links
-2. **Skills** — 8 categorized technical skill groups with custom icons (Languages, Frontend, Backend, Databases, DevOps, Testing, APIs, Agile)
-3. **Experience** — Timeline-based career journey with role highlights and achievements
-4. **Education** — Academic background with institution details
-5. **Connect** — Dual-channel contact form (Email & WhatsApp) with success toast notifications
-
-### 🔧 **Technical Highlights**
-
-- **Vue 3 Composition API** with `<script setup>` syntax
-- **TypeScript** for type-safe development
-- **Tailwind CSS 4.x** with custom theme configuration
-- **Lucide Vue** icons for consistent iconography
-- **Centralized configuration** via `metadata.json`
-- **SEO optimized** with Open Graph tags for social sharing
-- **Custom fonts**: Inter (sans-serif) & JetBrains Mono (monospace)
+📍 **Based in:** Bangalore, Karnataka  
+🌐 **Portfolio:** [dsoumyajit.in](https://dsoumyajit.in)  
+📄 **Resume:** [Download PDF](https://dsoumyajit.in/resume.pdf)
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Technical Skills
 
-| Category       | Technologies                                    |
-| -------------- | ----------------------------------------------- |
-| **Frontend**   | Vue 3.5, TypeScript 5.8, Tailwind CSS 4.1       |
-| **Build Tool** | Vite 6.2 with HMR optimization                  |
-| **Icons**      | Lucide Vue Next 1.0                             |
-| **Fonts**      | Google Fonts (Inter, JetBrains Mono)            |
-| **Deployment** | Static site hosting (Vercel/Netlify/Cloudflare) |
+### **Languages**
 
----
+`C#` `JavaScript` `TypeScript` `SQL` `HTML` `CSS`
 
-## 📂 Project Structure
+### **Frontend Development**
 
-```
-dsoumyajit/
-├── public/                    # Static assets
-│   ├── robots.txt            # SEO crawler rules
-│   ├── sitemap.xml           # Site structure for search engines
-│   ├── resume.pdf            # Downloadable resume
-│   ├── icons/                # Favicon and app icons
-│   └── images/               # Profile photo and assets
-├── src/
-│   ├── App.vue               # Main SPA component (800+ lines)
-│   ├── main.ts               # App entry point
-│   ├── index.css             # Global styles & Tailwind imports
-│   └── env.d.ts              # TypeScript declarations
-├── index.html                # HTML template with SEO meta tags
-├── metadata.json             # Centralized portfolio configuration
-├── package.json              # Dependencies and scripts
-├── tsconfig.json             # TypeScript configuration
-├── vite.config.ts            # Vite build configuration
-└── README.md                 # This file
-```
+`Vue.js` `Tailwind CSS` `Bootstrap` `Vuetify` `iView`
 
----
+### **Backend & Caching**
 
-## 🚀 Quick Start
+`.NET Core` `.NET Framework` `ASP.NET MVC` `Node.js` `LINQ` `Redis`
 
-### Prerequisites
+### **Databases & ORMs**
 
-- **Node.js** (v18+ recommended)
-- **npm** or **pnpm**
+`SQL Server` `Dapper` `Entity Framework` `Service-Repository Pattern`
 
-### Installation
+### **DevOps & Infrastructure**
 
-1. **Clone the repository:**
+`Jenkins` `IIS` `Git` `Bitbucket` `NuGet` `CI/CD Pipelines`
 
-   ```bash
-   git clone https://github.com/dsoumyajit/.github.git
-   cd dsoumyajit
-   ```
+### **Testing & Debugging**
 
-2. **Install dependencies:**
+`ViTest` `SpecFlow` `Chrome DevTools` `Burp Suite`
 
-   ```bash
-   npm install
-   ```
+### **API & Integrations**
 
-3. **Run development server:**
+`REST APIs` `Meta Ads API` `Google Ads API` `Moloco API`
 
-   ```bash
-   npm run dev
-   ```
+### **Agile & Other Tools**
 
-   The app will be available at `http://localhost:3000`
-
-4. **Build for production:**
-
-   ```bash
-   npm run build
-   ```
-
-   Output will be in the `dist/` folder.
-
-5. **Type-check (optional):**
-   ```bash
-   npm run lint
-   ```
+`Agile` `Scrum` `Jira` `Power BI Integration` `AI Integration Concepts` `MCP Servers`
 
 ---
 
-## 📝 Configuration
+## 💼 Professional Experience
 
-All portfolio content is managed through **`metadata.json`**, making it easy to update without touching component code.
+### **Product Engineer** @ [DeltaX](https://www.deltax.com)
 
-### Key Configuration Sections:
+_Nov 2025 – Present_
 
-- `personal` — Name, role, company, contact info, about paragraphs
-- `skills` — Technical skills grouped by category
-- `experiences` — Professional work history with highlights
-- `education` — Academic credentials
+- Contributing to the architecture and development of DeltaX's in-house **AdServer platform** focused on scalable ad delivery and campaign execution
+- Own end-to-end delivery of features across **frontend, backend, APIs**, and deployment workflows
+- Mentor freshers and interns through code reviews and implementation guidance
+- Developed and optimized landing pages for **MG Select**, implementing SEO improvements, dynamic sitemap generation with caching, and domain routing/CDN delivery using **Route 53 and CloudFront**
+- Contribute to **AI-driven platform initiatives** focused on reducing user friction and improving advertiser workflows
+- Collaborate cross-functionally with Product, QA, DevOps, and Customer Success teams in agile sprint cycles
 
-**Example:**
+### **Associate Product Engineer** @ [DeltaX](https://www.deltax.com)
 
-```json
-{
-  "portfolio": {
-    "personal": {
-      "name": "Soumyajit Das",
-      "role": "Product Engineer",
-      "email": "dsoumyajit.co@gmail.com",
-      "linkedin": "https://linkedin.com/in/dsoumyajit/",
-      "github": "https://github.com/dsoumyajit/"
-    },
-    "skills": [
-      {
-        "category": "Frontend",
-        "skills": ["Vue.js", "Tailwind CSS", "TypeScript"]
-      }
-    ]
-  }
-}
-```
+_Jul 2023 – Oct 2025_
 
----
+- Revamped legacy frontend modules built using **.NET MVC and Knockout.js** into modern **Vue.js SPAs**, improving UX and maintainability
+- Developed and maintained **API integrations** for advertising platforms including **Meta, Google, and Moloco**
+- Built reusable Vue.js components using **ViTest-driven development** to improve maintainability and code quality
+- Contributed as part of the technology partner team for **JioCinema**, including development and optimization of the **ads.jiocinema.com** landing platform
+- Automated deployment workflows using **Bitbucket and Jenkins webhooks**, improving deployment efficiency
+- **Redesigned the platform build strategy**, reducing build times by **~80%** (30–40 mins → 5–10 mins)
+- Resolved major **cross-site scripting (XSS) vulnerabilities**, significantly strengthening platform security
+- Improved **Power BI embed token lifespan** from 2 to 4 months through **Redis-based caching optimization**
 
-## 🎨 Customization
+### **Associate Product Engineer Intern** @ [DeltaX](https://www.deltax.com)
 
-### **Colors**
+_Jan 2023 – Jun 2023_
 
-Modify the color scheme in [src/index.css](src/index.css):
+- Completed an intensive full-stack engineering bootcamp focused on backend development, application architecture, REST APIs, frontend engineering, and DevOps fundamentals
+- Built CRUD-based applications using **.NET Core, SQL Server, Dapper**, and **Entity Framework**
+- Developed RESTful APIs following modular backend design principles
+- Successfully transitioned from engineering bootcamp trainee to full-time Associate Product Engineer
 
-- Primary: `#4F46E5` (Indigo)
-- Accent: `#10B981` (Emerald)
-- Background: `#070A13` (Dark Blue)
+### **Web Development Summer Intern** @ [Nagarro](https://www.nagarro.com)
 
-### **Fonts**
+_Jul 2022 – Aug 2022_
 
-Change fonts in [index.html](index.html) Google Fonts link and [src/index.css](src/index.css) `@theme` block.
-
-### **Sections**
-
-Add/remove sections by editing [src/App.vue](src/App.vue) template and navigation links.
+- Completed an intensive web development training program covering **HTML, CSS, JavaScript, Bootstrap, React.js, REST APIs**, and **MongoDB**
+- Built multiple frontend-focused projects involving API integrations and responsive UI development
 
 ---
 
-## 📊 Performance
+## 🎓 Education
 
-- **Lighthouse Score**: 95+ (Performance, Accessibility, Best Practices, SEO)
-- **First Contentful Paint (FCP)**: < 1.2s
-- **Largest Contentful Paint (LCP)**: < 2.0s (optimized with `preload`)
-- **Cumulative Layout Shift (CLS)**: < 0.1
-- **Time to Interactive (TTI)**: < 3.0s
+**Bachelor of Technology (B.Tech) in Information Technology**  
+Asansol Engineering College, Asansol, West Bengal  
+_2019 – 2023_
 
 ---
 
-## 🤝 Contact
+## 📫 Let's Connect!
 
-**Soumyajit Das**  
-📧 [dsoumyajit.co@gmail.com](mailto:dsoumyajit.co@gmail.com)  
-💼 [LinkedIn](https://linkedin.com/in/dsoumyajit/)  
-🐙 [GitHub](https://github.com/dsoumyajit/)  
-🌐 [Portfolio](https://dsoumyajit.in)  
-📞 [+91 9647395037](tel:+919647395037)
+I'm always open to interesting conversations and collaboration opportunities!
 
----
-
-## 📄 License
-
-This portfolio is open-source and available for personal reference. Please do not use the content or design for commercial purposes without permission.
+- 🌐 **Portfolio:** [dsoumyajit.in](https://dsoumyajit.in)
+- 💼 **LinkedIn:** [linkedin.com/in/dsoumyajit](https://linkedin.com/in/dsoumyajit/)
+- 📧 **Email:** [dsoumyajit.co@gmail.com](mailto:dsoumyajit.co@gmail.com)
+- 📱 **Phone:** [+91 9647395037](tel:+919647395037)
+- 💬 **WhatsApp:** [Chat on WhatsApp](https://wa.me/919647395037)
 
 ---
 
 <div align="center">
-  <sub>Built with ❤️ using Vue 3, TypeScript, and Tailwind CSS</sub>
+  <sub>💡 Building scalable solutions, one commit at a time</sub>
 </div>
