@@ -1,0 +1,3 @@
+Contact: mailto:dsoumyajit.co@gmail.com
+Preferred-Languages: en
+Canonical: https://dsoumyajit.in/.well-known/security.txt

@@ -296,7 +296,7 @@ onUnmounted(() => {
     </header>
 
     <!-- App Main Body Frame -->
-    <main class="flex-grow w-full max-w-full pt-[60px] sm:pt-[72px]">
+    <main class="grow w-full max-w-full pt-15 sm:pt-18">
 
       <!-- Section 1: Crisp Profiles and About Overview -->
       <section id="about"
@@ -413,7 +413,7 @@ onUnmounted(() => {
             <div class="relative group">
               <!-- Radial glowing base centered with the container -->
               <div
-                class="absolute -inset-1.5 bg-gradient-to-r from-emerald-500/10 to-indigo-500/20 rounded-full blur-md opacity-30 group-hover:opacity-50 transition duration-1000 w-full" />
+                class="absolute -inset-1.5 bg-linear-to-r from-emerald-500/10 to-indigo-500/20 rounded-full blur-md opacity-30 group-hover:opacity-50 transition duration-1000 w-full" />
               <div
                 class="relative w-48 h-48 sm:w-56 sm:h-56 rounded-full border border-gray-800 overflow-hidden shadow-2xl transition duration-300 group-hover:scale-[1.02]">
                 <img :src="portraitUrl" alt="Soumyajit Das Profile Photo" class="w-full h-full object-cover"
@@ -469,7 +469,7 @@ onUnmounted(() => {
           <div v-for="exp in PORTFOLIO_CONFIG.experiences" :key="exp.role" class="relative group">
             <!-- Node bullet -->
             <span
-              class="absolute -left-[30px] sm:-left-[35px] top-1 h-4.5 w-4.5 rounded-full bg-gray-950 border border-gray-850 flex items-center justify-center group-hover:border-indigo-400 transition-colors">
+              class="absolute -left-7.5 sm:-left-8.75 top-1 h-4.5 w-4.5 rounded-full bg-gray-950 border border-gray-850 flex items-center justify-center group-hover:border-indigo-400 transition-colors">
               <span class="h-2 w-2 rounded-full bg-indigo-455" />
             </span>
 
@@ -504,7 +504,7 @@ onUnmounted(() => {
               </ul>
 
               <!-- Embedded Achievements inside Timeline job records -->
-              <div v-if="exp.achievements && exp.achievements.length > 0" class="grid grid-cols-1 gap-2 pt-2.5">
+              <!-- <div v-if="exp.achievements && exp.achievements.length > 0" class="grid grid-cols-1 gap-2 pt-2.5">
                 <div v-for="ach in exp.achievements" :key="ach.title"
                   class="p-4 bg-indigo-950/15 border border-indigo-500/15 rounded-xl space-y-1 hover:border-indigo-500/25 transition-all duration-300">
                   <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1.5">
@@ -519,7 +519,7 @@ onUnmounted(() => {
                   </div>
                   <p class="text-[11px] text-slate-300 leading-normal pt-1">{{ ach.desc }}</p>
                 </div>
-              </div>
+              </div> -->
 
             </div>
           </div>
