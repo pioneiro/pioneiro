@@ -1,0 +1,9 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Host
+Host: https://dsoumyajit.in
+
+# Sitemaps
+Sitemap: https://dsoumyajit.in/sitemap.xml

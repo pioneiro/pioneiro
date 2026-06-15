@@ -1,0 +1,162 @@
+{
+  "name": "Soumyajit Das | Product Engineer",
+  "description": "Product Engineer specializing in Vue.js, .NET Core, SQL Server, AdTech platforms and modern performant architectures.",
+  "portfolio": {
+    "personal": {
+      "name": "Soumyajit Das",
+      "role": "Product Engineer",
+      "company": "DeltaX",
+      "companyUrl": "https://www.deltax.com",
+      "location": "Bangalore, Karnataka",
+      "email": "dsoumyajit.co@gmail.com",
+      "phone": "+91 9647395037",
+      "linkedin": "https://linkedin.com/in/dsoumyajit/",
+      "github": "https://github.com/dsoumyajit/",
+      "website": "dsoumyajit.in",
+      "aboutParagraphs": [
+        "Product Engineer with 3.5+ years of hands-on experience building high-performance web applications and platform solutions using C#, .NET, Vue.js, SQL Server, Redis, and REST APIs. Experienced in AdTech integrations, deployment automation, frontend modernization, and performance optimization across large-scale systems.",
+        "Currently contributing to DeltaX’s in-house AdServer and AI-driven platform initiatives while mentoring junior engineers and owning end-to-end feature delivery. Known for clean, modular code, strong debugging skills, and building reliable, maintainable systems."
+      ]
+    },
+    "skills": [
+      {
+        "category": "Languages",
+        "skills": ["C#", "JavaScript", "TypeScript", "SQL", "HTML", "CSS"]
+      },
+      {
+        "category": "Frontend",
+        "skills": ["Vue.js", "Tailwind CSS", "Bootstrap", "Vuetify", "iView"]
+      },
+      {
+        "category": "Backend & Caching",
+        "skills": [
+          ".NET Core",
+          ".NET Framework",
+          "ASP.NET MVC",
+          "Node.js",
+          "LINQ",
+          "Redis"
+        ]
+      },
+      {
+        "category": "Databases & ORMs",
+        "skills": [
+          "SQL Server",
+          "Dapper",
+          "Entity Framework",
+          "Service-Repository Pattern"
+        ]
+      },
+      {
+        "category": "DevOps & Infrastructure",
+        "skills": [
+          "Jenkins",
+          "IIS",
+          "Git",
+          "Bitbucket",
+          "NuGet",
+          "CI/CD Pipelines"
+        ]
+      },
+      {
+        "category": "Testing & Debugging",
+        "skills": ["ViTest", "SpecFlow", "Chrome DevTools", "Burp Suite"]
+      },
+      {
+        "category": "API & Integrations",
+        "skills": ["REST APIs", "Meta Ads API", "Google Ads API", "Moloco API"]
+      },
+      {
+        "category": "Agile & Other",
+        "skills": [
+          "Agile",
+          "Scrum",
+          "Jira",
+          "Power BI Integration",
+          "AI Integration Concepts",
+          "MCP Servers"
+        ]
+      }
+    ],
+    "experiences": [
+      {
+        "role": "Product Engineer",
+        "company": "DeltaX",
+        "companyUrl": "https://www.deltax.com",
+        "period": "Nov 2025 – Present",
+        "highlights": [
+          "Contribute to the architecture and development of DeltaX’s in-house AdServer platform focused on scalable ad delivery and campaign execution.",
+          "Contribute to technical discussions and architectural decisions around core platform capabilities.",
+          "Own end-to-end delivery of features across frontend, backend, APIs, and deployment workflows.",
+          "Mentor freshers and interns through code reviews and implementation guidance.",
+          "Contribute to AI-driven platform initiatives focused on reducing user friction and improving advertiser workflows.",
+          "Contribute to internal infrastructure initiatives including MCP server development and platform scalability improvements.",
+          "Developed and optimized landing pages for MG Select, implementing SEO improvements, dynamic sitemap generation with caching, and domain routing/CDN delivery using Route 53 and CloudFront.",
+          "Collaborate cross-functionally with Product, QA, DevOps, and Customer Success teams in agile sprint cycles.",
+          "Contributed to the foundation and architecture of DeltaX’s proprietary AdServer platform.",
+          "Implemented dynamic sitemap generation and CDN optimization strategies to improve SEO indexing and landing page delivery performance.",
+          "Helped drive modernization initiatives focused on automation, infrastructure optimization, and AI-assisted product experiences."
+        ]
+      },
+      {
+        "role": "Associate Product Engineer",
+        "company": "DeltaX",
+        "companyUrl": "https://www.deltax.com",
+        "period": "Jul 2023 – Oct 2025",
+        "highlights": [
+          "Revamped legacy frontend modules built using .NET MVC and Knockout.js into modern Vue.js SPAs, improving UX and maintainability.",
+          "Developed and maintained API integrations for advertising platforms including Meta, Google, and Moloco to support seamless campaign and ad exports.",
+          "Built reusable Vue.js components using ViTest-driven development to improve maintainability and code quality.",
+          "Contributed as part of the technology partner team for JioCinema, including development and optimization of the ads.jiocinema.com landing platform.",
+          "Developed and maintained scalable .NET services deployed via IIS on private infrastructure.",
+          "Created and maintained NuGet packages to improve code reusability and internal development workflows.",
+          "Automated deployment workflows using Bitbucket and Jenkins webhooks, improving deployment efficiency and reducing manual effort.",
+          "Built internal monitoring utilities with automated alerts and metrics tracking for faster issue detection and operational visibility.",
+          "Managed database backup workflows directly to remote storage without impacting local infrastructure resources.",
+          "Contributed to engineering hiring initiatives through campus interviews and intern mentoring.",
+          "Redesigned the platform build strategy, reducing build times by ~80% (30–40 mins -> 5–10 mins).",
+          "Resolved major cross-site scripting (XSS) vulnerabilities, significantly strengthening platform security.",
+          "Improved Power BI embed token lifespan from 2 to 4 months through Redis-based caching optimization.",
+          "Contributed to platform modernization initiatives across frontend architecture, deployment workflows, and infrastructure tooling."
+        ]
+      },
+      {
+        "role": "Associate Product Engineer Intern",
+        "company": "DeltaX",
+        "companyUrl": "https://www.deltax.com",
+        "period": "Jan 2023 – Jun 2023",
+        "highlights": [
+          "Completed an intensive full-stack engineering bootcamp focused on backend development, application architecture, REST APIs, frontend engineering, and DevOps fundamentals using the .NET and Vue.js ecosystem.",
+          "Built CRUD-based applications using .NET Core, SQL Server, Dapper, and Entity Framework following Service-Repository architecture patterns.",
+          "Developed RESTful APIs following modular backend design principles.",
+          "Built responsive UI components using Vue.js, Bootstrap, HTML, CSS, and JavaScript.",
+          "Gained strong understanding of OOP, LINQ, database normalization, joins, stored procedures, CI/CD workflows, IIS deployments, and modular development practices using Git, Node.js, and npm.",
+          "Successfully transitioned from engineering bootcamp trainee to full-time Associate Product Engineer at DeltaX."
+        ]
+      },
+      {
+        "role": "Web Development Summer Intern",
+        "company": "Nagarro",
+        "companyUrl": "https://www.nagarro.com",
+        "period": "Jul 2022 – Aug 2022",
+        "highlights": [
+          "Completed an intensive web development training program covering HTML, CSS, JavaScript, Bootstrap, React.js, REST APIs, and MongoDB.",
+          "Built multiple frontend-focused projects involving API integrations, responsive UI development, and interactive web components.",
+          "Developed a centralized project showcase portal to consolidate internship assignments and mini-projects."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Technology (B.Tech) in Information Technology",
+        "institution": "Asansol Engineering College",
+        "location": "Asansol, West Bengal",
+        "period": "2019 – 2023",
+        "highlights": [
+          "Completed a B.Tech degree focused on computer technologies, information systems, operating systems, and object-oriented programming concepts.",
+          "Graduated with a solid foundation in modern database organization and modular computing paradigms."
+        ]
+      }
+    ]
+  }
+}
